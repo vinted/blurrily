@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'blurrily/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "blurrily"
+  gem.name          = "vinted-blurrily"
   gem.version       = Blurrily::VERSION
-  gem.authors       = ["Julien Letessier", "Dawid Sklodowski", "Marcus Mitchell"]
-  gem.email         = ["julien.letessier@gmail.com"]
+  gem.authors       = ["Tomas Varneckas", "Julien Letessier", "Dawid Sklodowski", "Marcus Mitchell"]
+  gem.email         = ["t.varneckas@gmail.com", "julien.letessier@gmail.com"]
   gem.description   = %q{Native fuzzy string search}
   gem.summary       = %q{Native fuzzy string search}
-  gem.homepage      = "http://github.com/mezis/blurrily"
+  gem.homepage      = "http://github.com/vinted/blurrily"
 
   gem.add_dependency 'activesupport', '~> 4'
   gem.add_dependency 'eventmachine'

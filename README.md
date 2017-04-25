@@ -1,5 +1,7 @@
 # Blurrily — Millisecond fuzzy string matching
 
+This is a fork made solely for the purpose of adding Ruby 2.4 support and making it available in RubyGems.
+
 [![Gem Version](https://badge.fury.io/rb/blurrily.svg)](http://badge.fury.io/rb/blurrily)
 [![Build Status](https://travis-ci.org/mezis/blurrily.svg?branch=master)](https://travis-ci.org/mezis/blurrily)
 [![Dependency Status](https://gemnasium.com/mezis/blurrily.svg)](https://gemnasium.com/mezis/blurrily)
