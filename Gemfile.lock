@@ -1,23 +1,24 @@
 PATH
   remote: .
   specs:
-    vinted-blurrily (1.2.0)
+    vinted-blurrily (1.3.0)
       activesupport (>= 4)
       eventmachine
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.0.2)
+    activesupport (6.0.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+      zeitwerk (~> 2.2)
     benchmark-ips (2.1.1)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     coderay (1.1.0)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.5)
     coveralls (0.7.2)
       multi_json (~> 1.3)
       rest-client (= 1.6.7)
@@ -26,7 +27,7 @@ GEM
       thor (= 0.18.1)
     diff-lcs (1.2.5)
     docile (1.1.5)
-    eventmachine (1.2.3)
+    eventmachine (1.2.7)
     ffi (1.9.6)
     formatador (0.2.5)
     guard (2.11.1)
@@ -44,7 +45,8 @@ GEM
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
     hitimes (1.2.2)
-    i18n (0.8.1)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
     listen (2.8.5)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -52,7 +54,7 @@ GEM
     lumberjack (1.0.9)
     method_source (0.8.2)
     mime-types (2.4.3)
-    minitest (5.10.1)
+    minitest (5.14.0)
     multi_json (1.10.1)
     nenv (0.2.0)
     notiffany (0.0.3)
@@ -103,9 +105,10 @@ GEM
     timers (4.0.1)
       hitimes
     tins (0.13.2)
-    tzinfo (1.2.3)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
     yard (0.8.7.6)
+    zeitwerk (2.2.2)
 
 PLATFORMS
   ruby
@@ -127,4 +130,4 @@ DEPENDENCIES
   vinted-blurrily!
 
 BUNDLED WITH
-   1.14.6
+   1.17.2
